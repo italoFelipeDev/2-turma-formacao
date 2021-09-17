@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <changeSet id="190720211915-1" author="italo.galdino">
+        <createTable tableName="TB_TAREFA">
+            <column name="CO_TAREFA" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="NO_NOME" type="VARCHAR">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="DT_CONCLUSAO" type="TIMESTAMP">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="DT_INICIO" type="TIMESTAMP">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="NU_STATUS" type="NUMBER">
+            </column>
+
+            <column name="CO_RESPONSAVEL" type="NUMBER">
+            </column>
+
+        </createTable>
+
+        <addPrimaryKey tableName="TB_TAREFA" columnNames="CO_TAREFA"/>
+
+        <createSequence sequenceName="SQ_TAREFA" startValue="1" incrementBy="1"/>
+
+        <addForeignKeyConstraint baseTableName="TB_TAREFA" baseColumnNames="CO_RESPONSAVEL" constraintName="FK_RESPONSAVEL" referencedTableName="TB_RESPONSAVEL"
+                                 referencedColumnNames="CO_RESPONSAVEL"/>
+
+    </changeSet>
+</databaseChangeLog>

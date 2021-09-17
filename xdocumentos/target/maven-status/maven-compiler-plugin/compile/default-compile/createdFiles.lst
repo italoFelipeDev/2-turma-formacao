@@ -1,0 +1,6 @@
+com/example/xdocumentos/XdocumentosApplication.class
+com/example/xdocumentos/service/DocumentoService.class
+com/example/xdocumentos/config/MinioConfig.class
+com/example/xdocumentos/config/ApplicationProperties.class
+com/example/xdocumentos/resource/DocumentoRecurso.class
+com/example/xdocumentos/service/dto/DocumentoDTO.class

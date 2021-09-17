@@ -1,0 +1,7 @@
+
+`	java:S1123"FDefine and throw a dedicated exception instead of using a generic one.(ÃôÕüÿÿÿÿ
+Z	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(Å´¼l
+E
+java:S22014"/The return value of "orElseThrow" must be used.(ÅÄ²Å
+I
+java:S1874N".Remove this use of "search"; it is deprecated.(§´ Çşÿÿÿÿ

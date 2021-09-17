@@ -1,0 +1,16 @@
+com/example/xtarefas/config/containers/ContainersFactory.class
+com/example/xtarefas/config/containers/CustomElasticContainer.class
+com/example/xtarefas/util/TesteUtil$ZonedDateTimeMatcher.class
+com/example/xtarefas/config/MockConfiguration.class
+com/example/xtarefas/builder/ConstrutorDeEntidade.class
+com/example/xtarefas/builder/CustomizacaoEntidade.class
+com/example/xtarefas/builder/TarefaBuilder.class
+com/example/xtarefas/builder/ResponsavelBuilder.class
+com/example/xtarefas/config/containers/ElasticSearchFactory.class
+com/example/xtarefas/web/rest/AnexoResourceIT.class
+com/example/xtarefas/util/TesteUtil.class
+com/example/xtarefas/web/rest/TarefaResourceIT.class
+com/example/xtarefas/XtarefasApplicationTests.class
+com/example/xtarefas/builder/AnexoBuilder.class
+com/example/xtarefas/config/containers/AbstractTestIT.class
+com/example/xtarefas/web/rest/ResponsavelResourceIT.class

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <changeSet id="19072021185600-1" author="italo.galdino">
+        <createTable tableName="TB_ANEXO">
+            <column name="CO_ANEXO" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="NO_FILE" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="NO_FILENAME" type="VARCHAR">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="CO_TAREFA" type="NUMBER">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="NU_UUID" type="TEXT">
+            </column>
+        </createTable>
+
+        <addPrimaryKey tableName="TB_ANEXO" columnNames="CO_ANEXO"/>
+
+        <createSequence sequenceName="SQ_ANEXO" startValue="1" incrementBy="1"/>
+
+        <addForeignKeyConstraint baseTableName="TB_ANEXO" baseColumnNames="CO_TAREFA" constraintName="FK_TAREFA" referencedTableName="TB_TAREFA"
+                                 referencedColumnNames="CO_TAREFA"/>
+    </changeSet>
+</databaseChangeLog>

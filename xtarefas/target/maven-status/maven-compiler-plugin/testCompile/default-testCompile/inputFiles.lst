@@ -1,0 +1,15 @@
+/home/basis/Documentos/xtarefas-turma-formacao/xtarefas/src/test/java/com/example/xtarefas/config/containers/ElasticSearchFactory.java
+/home/basis/Documentos/xtarefas-turma-formacao/xtarefas/src/test/java/com/example/xtarefas/config/MockConfiguration.java
+/home/basis/Documentos/xtarefas-turma-formacao/xtarefas/src/test/java/com/example/xtarefas/web/rest/TarefaResourceIT.java
+/home/basis/Documentos/xtarefas-turma-formacao/xtarefas/src/test/java/com/example/xtarefas/builder/TarefaBuilder.java
+/home/basis/Documentos/xtarefas-turma-formacao/xtarefas/src/test/java/com/example/xtarefas/config/containers/AbstractTestIT.java
+/home/basis/Documentos/xtarefas-turma-formacao/xtarefas/src/test/java/com/example/xtarefas/XtarefasApplicationTests.java
+/home/basis/Documentos/xtarefas-turma-formacao/xtarefas/src/test/java/com/example/xtarefas/builder/ResponsavelBuilder.java
+/home/basis/Documentos/xtarefas-turma-formacao/xtarefas/src/test/java/com/example/xtarefas/util/TesteUtil.java
+/home/basis/Documentos/xtarefas-turma-formacao/xtarefas/src/test/java/com/example/xtarefas/builder/ConstrutorDeEntidade.java
+/home/basis/Documentos/xtarefas-turma-formacao/xtarefas/src/test/java/com/example/xtarefas/config/containers/CustomElasticContainer.java
+/home/basis/Documentos/xtarefas-turma-formacao/xtarefas/src/test/java/com/example/xtarefas/web/rest/ResponsavelResourceIT.java
+/home/basis/Documentos/xtarefas-turma-formacao/xtarefas/src/test/java/com/example/xtarefas/config/containers/ContainersFactory.java
+/home/basis/Documentos/xtarefas-turma-formacao/xtarefas/src/test/java/com/example/xtarefas/builder/CustomizacaoEntidade.java
+/home/basis/Documentos/xtarefas-turma-formacao/xtarefas/src/test/java/com/example/xtarefas/builder/AnexoBuilder.java
+/home/basis/Documentos/xtarefas-turma-formacao/xtarefas/src/test/java/com/example/xtarefas/web/rest/AnexoResourceIT.java
